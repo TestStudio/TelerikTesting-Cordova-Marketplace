@@ -12,7 +12,7 @@
         <engine name="cordova-wp8" version=">=3.0.0" />
     </engines>
     <platform name="ios">
-        <!--<preference name="IOS_APP_URL"/>-->
+        <preference name="IOS_APP_URL"/>
         <source-file src="src/ios/libMobileTestingExtension.a" framework="true" />
         <framework src="libicucore.dylib" />
         <framework src="Security.framework" />
@@ -26,8 +26,7 @@
                     <string>com.telerik.automation</string>
                     <key>CFBundleURLSchemes</key>
                     <array>
-                        <!--<string>$IOS_APP_URL</string>-->
-                        <string>defaultAppURL</string>
+                        <string>$IOS_APP_URL</string>
                     </array>
                 </dict>
             </array>
