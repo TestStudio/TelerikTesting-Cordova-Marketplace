@@ -32,9 +32,6 @@
                 </dict>
             </array>
         </config-file>
-        <config-file target="*-Info.plist" parent="MinimumOSVersion">
-            <string>7.0</string>
-        </config-file>
     </platform>
     <platform name="android">
 		<js-module src="src/android/cordova/www/deviceready.js" name="deviceready">
